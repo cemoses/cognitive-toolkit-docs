@@ -15,7 +15,7 @@ ms.devlang:   python
 
 This page will walk you through the process of installing the Microsoft Cognitive Toolkit (CNTK) to use from Python in Windows. If you are looking for any other kind of support to setup a CNTK build environment or installing CNTK on your system, you should go [here](./Setup-CNTK-on-your-machine.md) instead. 
 
-Depending on the Python and CNTK version (CPU, GPU, 1bit-SGD) we supply different wheel (.whl) files to install CNTK. Please select the correct installation from the list below, and substitute the name and/or link during the installation. Note that the CNTK GPU-1bit-SGD version is licensed under a specific [1bit-SGD License](./CNTK-1bit-SGD-License.md) which is MORE restrictive, than the major CNTK License.
+Depending on the Python and CNTK version (CPU, GPU, 1bit-SGD) we supply different wheel (.whl) files to install CNTK. Please select the correct installation from the list below, and substitute the name and/or link during the installation. Note that the CNTK GPU-1bit-SGD version is licensed under a specific [1bit-SGD License](./CNTK-1bit-SGD-License.md) that is MORE restrictive than the major CNTK License.
 
 * Easy pip install for [Anaconda3 4.1.1](#anaconda3)
 * Easy pip install for [Anaconda2 4.3.0.1](#anaconda2)
