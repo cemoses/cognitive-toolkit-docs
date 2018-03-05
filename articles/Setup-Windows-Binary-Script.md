@@ -23,7 +23,7 @@ If you are looking for any other kind of support in setting up a CNTK build envi
 
 Download the appropriate binary package from [CNTK Releases page](https://github.com/Microsoft/CNTK/releases). The installation described on this page only works with the binary package. The source code package, which is also available from the CNTK Release page, is NOT required.
 
-Unpack the zip file into an empty local folder of your choice. We recommend you name the folder according to the CNTK version, so you don't mix files of a previously downloaded CNTK version with the newly downloaded files. In the following we will assume you unzipped the files into the directory `c:\local\CNTK-2-4`. If you used another directory, adjust the following instructions accordingly.
+Unpack the zip file into an empty local folder of your choice. We recommend you name the folder according to the CNTK version, so you don't mix files of a previously downloaded CNTK version with the newly downloaded files. In the following, we will assume you unzipped the files into the directory `c:\local\CNTK-2-4`. If you used another directory, adjust the following instructions accordingly.
 
 **Step 2 Run the installation script**
 
@@ -34,9 +34,9 @@ cd cntk\Scripts\install\windows
 install.bat
 ```
 
-The script will inspect your system and determine the prerequisites which are missing. You will be notified about the proposed installation steps and locations. This can be adjusted by optional parameters to the install script, [see here](./Setup-Windows-Binary-Script-Options.md).
+The script will inspect your system and determine the prerequisites, which are missing. In addition, you be given some proposed installation steps and locations. This can be adjusted by optional parameters to the install script, [see here](./Setup-Windows-Binary-Script-Options.md).
 
-The script will download needed components from the web, a connection to the Internet is required. It will execute these components, and according to the setting of UAC (User Account Control) you will be asked to acknowledge the execution and installation of these components.
+The script will download needed components from the web; a connection to the Internet is required. It will execute these components, and according to the setting of UAC (User Account Control) you will be asked to acknowledge the execution and installation of these components.
 
 Depending on the speed of your system, the Internet connection, and the required components to install, the whole process can take up to 20 minutes. Especially the Anaconda3 install is very time consuming, please be patient.
 
